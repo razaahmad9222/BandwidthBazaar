@@ -1,0 +1,39 @@
+{
+  "name": "bandwidth-bazaar",
+  "version": "1.0.0",
+  "description": "Solana DePIN for passive bandwidth income - Superteam Pakistan Hackathon Submission",
+  "author": "Raza Ahmad", 
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "test": "anchor test",
+    "dev": "cd app && npm run dev",
+    "start": "cd app && npm run start", 
+    "install:all": "npm install && cd app && npm install",
+    "frontend": "cd app && npm run dev",
+    "smart-contract": "anchor build && anchor test"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "solana",
+    "depin", 
+    "bandwidth",
+    "web3",
+    "pakistan",
+    "hackathon",
+    "superteam"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razaahmad9222/bandwidth-bazaar"
+  }
+}
