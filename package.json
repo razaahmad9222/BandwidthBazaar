@@ -1,39 +1,55 @@
 {
   "name": "bandwidth-bazaar",
-  "version": "1.0.0",
-  "description": "Solana DePIN for passive bandwidth income - Superteam Pakistan Hackathon Submission",
-  "author": "Raza Ahmad", 
-  "license": "MIT",
+  "version": "1.0.0", 
+  "description": "Global Solana DePIN platform for worldwide bandwidth monetization - Investment Opportunity",
+  "author": "Ahmad Raza <raza.ahmad9222@gmail.com>",
+  "license": "SEE LICENSE IN INVESTMENT_TERMS.md",
   "type": "module",
   "scripts": {
     "build": "anchor build",
-    "deploy": "anchor deploy",
+    "deploy": "anchor deploy", 
     "test": "anchor test",
     "dev": "cd app && npm run dev",
-    "start": "cd app && npm run start", 
+    "start": "cd app && npm run start",
     "install:all": "npm install && cd app && npm install",
     "frontend": "cd app && npm run dev",
-    "smart-contract": "anchor build && anchor test"
+    "smart-contract": "anchor build && anchor test",
+    "production": "cd app && npm run build",
+    "global-deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.29.0"
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.1",
+    "@types/mocha": "^10.0.1", 
     "mocha": "^10.2.0",
     "typescript": "^5.0.0"
   },
   "keywords": [
+    "global",
+    "depin",
     "solana",
-    "depin", 
     "bandwidth",
     "web3",
-    "pakistan",
-    "hackathon",
-    "superteam"
+    "investment",
+    "startup", 
+    "revenue",
+    "passive-income",
+    "ai",
+    "edge-computing",
+    "international",
+    "cross-border",
+    "infrastructure"
   ],
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "https://github.com/razaahmad9222/bandwidth-bazaar"
+  },
+  "homepage": "https://github.com/razaahmad9222/bandwidth-bazaar#readme",
+  "bugs": {
+    "url": "https://github.com/razaahmad9222/bandwidth-bazaar/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
